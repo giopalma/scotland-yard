@@ -14,7 +14,7 @@ function tabHandler(isDetective)
 
 <template>
 <div class="tabs">
-    <div class="tabs-item" @click="tabHandler(false)" :style="{backgroundColor: store.isDetective ? '' : '#242424', borderTopRightRadius: store.isDetective ? '':'20px'}">Mr. X</div>
+    <div class="tabs-item" @click="tabHandler(false)" :style="{backgroundColor: store.isDetective ? '' : '#242424', borderTopRightRadius: store.isDetective ? '':'20px'}">Mister X</div>
     <div class="tabs-item" @click="tabHandler(true)" :style="{backgroundColor: store.isDetective ? '#213547' : '', borderTopLeftRadius: store.isDetective ? '20px' : ''}">Detective</div>
 </div>
 </template>
